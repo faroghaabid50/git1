@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #8d1b1b;
 }
 
 header {
-    background-color: green;
-    color: white;
+    background-color: rgb(204, 103, 103);
+    color: black;
     padding: 10px 0;
     text-align: center;
 }
@@ -22,14 +23,15 @@ nav ul li {
 }
 
 .product {
-    border: 1px solid #ccc;
+    border: 1px solid #bd6060;
     padding: 10px;
     margin: 10px;
     text-align: center;
+    background-color: #bd6060;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #f1f1f1;
+    background-color: #da7c7c;
 }
