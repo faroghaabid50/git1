@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #8d1b1b;
+    background-color: #f0e68c; /* Changed to a unique light pastel color */
 }
 
 header {
-    background-color: rgb(204, 103, 103);
-    color: black;
+    background-color: rgb(102, 204, 255); /* Changed to a vibrant color */
+    color: white;
     padding: 10px 0;
     text-align: center;
 }
@@ -28,6 +28,11 @@ nav ul li {
     margin: 10px;
     text-align: center;
     background-color: #bd6060;
+    transition: transform 0.2s; /* Added hover effect */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Scale effect on hover */
 }
 
 footer {
